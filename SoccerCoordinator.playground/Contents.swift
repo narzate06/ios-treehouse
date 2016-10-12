@@ -140,14 +140,14 @@ for soccerPlayer in soccerPlayers {
 
 
 //Reuse code by creating a function to divide soccer players by experience
-func assignTeams() {
-    for soccerPlayer in soccerPlayers {
-        if soccerPlayer ["experience"] == "YES"{
-            playersWithExperience.append(soccerPlayer)
-        }else{
-            playersWithoutExperience.append(soccerPlayer)
-        }
-    }
+//func assignTeams() {
+    //for soccerPlayer in soccerPlayers {
+      //  if soccerPlayer ["experience"] == "YES"{
+            //playersWithExperience.append(soccerPlayer)
+        //}else{
+           // playersWithoutExperience.append(soccerPlayer)
+        //}
+    //}
     
     
 //Assign soccer players to teams
@@ -188,7 +188,6 @@ func assignTeams() {
         inexperiencedArray += 1
         inexperiencedCount -= 1
     }
-    
     //Soccer Player roster printout
     
     func printRoster(team: [[String: String]]) {
@@ -229,7 +228,7 @@ func assignTeams() {
     printMessages(team: sharks, teamName: sharksName, firstPractice: sharksFirstPractice)
     printMessages(team: dragons, teamName: dragonsName, firstPractice: dragonsFirstPractice)
     printMessages(team: raptors, teamName: raptorsName, firstPractice: raptorsFirstPractice)
-}
+//}
 
-assignTeams()
+//assignTeams()
 
